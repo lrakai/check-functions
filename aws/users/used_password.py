@@ -1,7 +1,7 @@
 import boto3
 import botocore
 
-# lambda function
+# Lambda function
 def handler(event, context):
 	# init session
     client = create_new_session(event).client('iam')
